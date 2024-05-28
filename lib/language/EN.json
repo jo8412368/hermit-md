@@ -1,235 +1,235 @@
 {
     "__ASENAJSON__": true,
-    "LANGUAGE": "English",
-    "LANGCODE": "en",
+    "LANGUAGE": "Arabic",
+    "LANGCODE": "ar",
     "AUTHOR": "AsenaDev",
     "STRINGS": {
         "_asena": {
-            "COMMAND": "Command",
-            "DESC": "Description",
-            "EXAMPLE": "Example",
-            "NOT_FOUND": "_I couldn't find a command like this_"
+            "COMMAND": "الأمر",
+            "DESC": "الوصف",
+            "EXAMPLE": "مثال",
+            "NOT_FOUND": "_لم أتمكن من العثور على أمر مثل هذا_"
         },
         "_plugin": {
-            "INSTALL_DESC": "Install external plugins.",
-            "NEED_URL": "Please enter a URL! Example:",
-            "INVALID_URL": "```Please enter a valid url!```",
-            "INVALID_PLUGIN": "_Your plugin is invalid!_\n_Error:_",
-            "INSTALLED": "_Plugin has been successfully installed! : {}_",
-            "PLUGIN_DESC": "Shows the plugins you have installed.",
-            "INSTALLED_FROM_REMOTE": "_Plugins you install externally:_\n",
-            "NO_PLUGIN": "_You have not installed any external plugins!_",
-            "REMOVE_DESC": "Removes the plugin.",
-            "NEED_PLUGIN": "```Please enter a Plugin! Example: .plugin __test```",
-            "NOT_FOUND_PLUGIN": "```Maybe you have installed such a plugin, or maybe not. But it sure isn't right now.```",
-            "DELETED": "_Plugin successfully deleted!_"
+            "INSTALL_DESC": "تثبيت الإضافات الخارجية.",
+            "NEED_URL": "يرجى إدخال رابط! مثال:",
+            "INVALID_URL": "```يرجى إدخال رابط صحيح!```",
+            "INVALID_PLUGIN": "_الإضافة غير صالحة!_\n_خطأ:_",
+            "INSTALLED": "_تم تثبيت الإضافة بنجاح! : {}_",
+            "PLUGIN_DESC": "يعرض الإضافات التي قمت بتثبيتها.",
+            "INSTALLED_FROM_REMOTE": "_الإضافات التي تثبتها خارجيًا:_\n",
+            "NO_PLUGIN": "_لم تقم بتثبيت أي إضافات خارجية!_",
+            "REMOVE_DESC": "يزيل الإضافة.",
+            "NEED_PLUGIN": "```يرجى إدخال اسم الإضافة! مثال: .plugin __test```",
+            "NOT_FOUND_PLUGIN": "```ربما قد قمت بتثبيت مثل هذه الإضافة، أو ربما لا. لكنها بالتأكيد ليست مثبتة حاليًا.```",
+            "DELETED": "_تم حذف الإضافة بنجاح!_"
         },
         "admin": {
-            "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
-            "IM_NOT_ADMIN": "_I am not admin in this group!_",
-            "BANNED": "kicked out of the group!",
-            "GIVE_ME_USER": "_Give me a user!_",
-            "ADD_DESC": "Adds someone to the group.",
-            "ADDED": "added to the group!",
-            "ALREADY_PROMOTED": "```How can I make someone admin who is already admin?```",
-            "PROMOTED": "```, admin role was given!```",
-            "PROMOTE_DESC": "Makes any person an admin.",
-            "DEMOTE_DESC": "Takes the authority of any admin.",
-            "ALREADY_NOT_ADMIN": "```How can I make someone admin who is already admin?```",
-            "DEMOTED": "```, has been demoted!```",
-            "MUTE_DESC": "Mute the group chat. Only the admins can send a message.",
-            "MUTED": "```Group chat muted!```",
-            "UNMUTE_DESC": "Unmute the group chat. Anyone can send a message.",
-            "UNMUTED": "```The group chat has unmuted!```",
-            "INVITE_DESC": "Provides the group's invitation link.",
-            "INVITE": "```Invitation link: ```"
+            "BAN_DESC": "يحظر شخصًا في المجموعة. قم بالرد على رسالة أو تحديد شخص لاستخدام الأمر.",
+            "IM_NOT_ADMIN": "_أنا لست مسؤولًا في هذه المجموعة!_",
+            "BANNED": "تم طرده من المجموعة!",
+            "GIVE_ME_USER": "_أعطني مستخدمًا!_",
+            "ADD_DESC": "يضيف شخصًا إلى المجموعة.",
+            "ADDED": "تمت إضافته إلى المجموعة!",
+            "ALREADY_PROMOTED": "```كيف يمكنني جعل شخص ما مسؤولًا وهو بالفعل مسؤول؟```",
+            "PROMOTED": "```, تم منحه دور المسؤول!```",
+            "PROMOTE_DESC": "يجعل أي شخص مسؤولًا.",
+            "DEMOTE_DESC": "يسحب صلاحية أي مسؤول.",
+            "ALREADY_NOT_ADMIN": "```كيف يمكنني جعل شخص ما مسؤولًا وهو بالفعل مسؤول؟```",
+            "DEMOTED": "```, تم تنزيله!```",
+            "MUTE_DESC": "يكتم دردشة المجموعة. فقط المسؤولين يمكنهم إرسال الرسائل.",
+            "MUTED": "```تم كتم دردشة المجموعة!```",
+            "UNMUTE_DESC": "يفتح كتم دردشة المجموعة. يمكن لأي شخص إرسال الرسائل.",
+            "UNMUTED": "```تم فتح كتم دردشة المجموعة!```",
+            "INVITE_DESC": "يوفر رابط دعوة المجموعة.",
+            "INVITE": "```رابط الدعوة: ```"
         },
         "afk": {
-            "AFK_DESC": "It makes you AFK - Away From Keyboard.",
-            "IM_AFK": "_I'm AFK now!_",
-            "IM_AFK_NOMD": "I'm AFK now!",
-            "REASON": "Reason",
-            "LAST_SEEN": "Last Seen",
-            "IM_NOT_AFK": "```I am not AFK anymore!```",
-            "AFK_TEXT": "```Bip bop! This is a bot. My owner is not here at the moment.```",
-            "AFK_TEXT_NOMD": "Bip bop! This is a bot.",
-            "HOUR": "hour",
-            "MINUTE": "minute",
-            "SECOND": "second"
+            "AFK_DESC": "يجعلك بعيدًا عن لوحة المفاتيح.",
+            "IM_AFK": "_أنا الآن بعيد عن لوحة المفاتيح!_",
+            "IM_AFK_NOMD": "أنا الآن بعيد عن لوحة المفاتيح!",
+            "REASON": "السبب",
+            "LAST_SEEN": "آخر ظهور",
+            "IM_NOT_AFK": "```لم أعد بعيدًا عن لوحة المفاتيح!```",
+            "AFK_TEXT": "```بيب بوب! هذا روبوت. مالك الحساب ليس هنا في الوقت الحالي.```",
+            "AFK_TEXT_NOMD": "بيب بوب! هذا روبوت.",
+            "HOUR": "ساعة",
+            "MINUTE": "دقيقة",
+            "SECOND": "ثانية"
         },
         "evaluators": {
-            "TERM_DESC": "Allows to run the command on the server's shell.",
-            "GIVE_ME_CODE": "_Give me a code!_"
+            "TERM_DESC": "يسمح بتنفيذ الأمر على صدفة الخادم.",
+            "GIVE_ME_CODE": "_أعطني كود!_"
         },
         "nekobin": {
-            "NEKO_DESC": "Replied messages will be added to nekobin.com.",
-            "NEED_REPLY": "```Please reply to a message!```",
-            "MUST_TEXT": "```Please reply to any message```"
+            "NEKO_DESC": "يتم إضافة الرسائل المستجابة إلى nekobin.com.",
+            "NEED_REPLY": "```يرجى الرد على رسالة!```",
+            "MUST_TEXT": "```يرجى الرد على أي رسالة```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart WhatsAsena",
-            "RESTART_MSG": "```restarting...```",
-            "SHUTDOWN_DESC": "Shutdown WhatsAsena",
-            "SHUTDOWN_MSG": "```shutting down ⛔```",
-            "DYNO_DESC": "Check heroku dyno usage",
-            "DYNO_TOTAL": "```Total Quota```",
-            "DYNO_USED": "```Quota used```",
-            "PERCENTAGE": "```Percentage```",
-            "DYNO_LEFT": "```Remaining```",
-            "SETVAR_DESC": "Set heroku config var",
-            "SET_SUCCESS": "Successfully set ```{} ➜ {}```",
-            "KEY_VAL_MISSING": "```Either Key or Value is missing```",
-            "INVALID": "```Invalid key:value format```",
-            "GETVAR_DESC": "Get heroku config var",
-            "DELVAR_DESC": "Delete heroku config var",
-            "DEL_SUCCESS": "```{} successfully deleted```",
-            "NOT_FOUND": "```no results found for this key```",
-            "DAY": "day",
-            "HOUR": "hour",
-            "MINUTE": "minute",
-            "SECOND": "second"
+            "RESTART_DESC": "إعادة تشغيل WhatsAsena",
+            "RESTART_MSG": "```إعادة التشغيل...```",
+            "SHUTDOWN_DESC": "إيقاف تشغيل WhatsAsena",
+            "SHUTDOWN_MSG": "```الإيقاف ⛔```",
+            "DYNO_DESC": "تحقق من استخدام دينو هيروكو",
+            "DYNO_TOTAL": "```الحصة الإجمالية```",
+            "DYNO_USED": "```الحصة المستخدمة```",
+            "PERCENTAGE": "```النسبة المئوية```",
+            "DYNO_LEFT": "```المتبقي```",
+            "SETVAR_DESC": "تعيين متغير تكوين هيروكو",
+            "SET_SUCCESS": "تم التعيين بنجاح ```{} ➜ {}```",
+            "KEY_VAL_MISSING": "```إما المفتاح أو القيمة مفقودان```",
+            "INVALID": "```تنسيق المفتاح:القيمة غير صالح```",
+            "GETVAR_DESC": "الحصول على متغير تكوين هيروكو",
+            "DELVAR_DESC": "حذف متغير تكوين هيروكو",
+            "DEL_SUCCESS": "```تم حذف {} بنجاح```",
+            "NOT_FOUND": "```لم يتم العثور على نتائج لهذا المفتاح```",
+            "DAY": "يوم",
+            "HOUR": "ساعة",
+            "MINUTE": "دقيقة",
+            "SECOND": "ثانية"
         },
         "filters": {
-            "FILTER_DESC": "It adds a filter. If someone writes your filter, it send the answer. If you just write .filter, it show's your filter list.",
-            "NO_FILTER": "_There are no filters in this chat!_",
-            "FILTERS": "_There is your filters in this chat:_",
-            "NEED_REPLY": "_Please type in reply!_\n_Example:_",
-            "FILTERED": "_Successfully set_ ```{}``` _to filter!_",
-            "STOP_DESC": "Stops the filter you added previously.",
-            "NEED_FILTER": "_Please type a filter!_\n_Example:_",
-            "ALREADY_NO_FILTER": "_There is already no filter like this!_",
-            "DELETED": "_The filter was successfully deleted!_"
+            "FILTER_DESC": "يضيف فلترًا. إذا كتب شخص ما فلترك، سيرسل الإجابة. إذا كتبت فقط .filter، سيعرض قائمة الفلاتر الخاصة بك.",
+            "NO_FILTER": "_لا توجد فلاتر في هذه الدردشة!_",
+            "FILTERS": "_هذه فلاترك في هذه الدردشة:_",
+            "NEED_REPLY": "_يرجى الكتابة في الرد!_\n_مثال:_",
+            "FILTERED": "_تم تعيين_ ```{}``` _للفلتر بنجاح!_",
+            "STOP_DESC": "يوقف الفلتر الذي أضفته سابقًا.",
+            "NEED_FILTER": "_يرجى كتابة فلتر!_\n_مثال:_",
+            "ALREADY_NO_FILTER": "_لا يوجد فلتر مثل هذا بالفعل!_",
+            "DELETED": "_تم حذف الفلتر بنجاح!_"
         },
         "greetings": {
-            "WELCOME_DESC": "It sets the welcome message. If you leave it blank it shows the welcome message.",
-            "NOT_SET_WELCOME": "_You don't set the welcome message yet.!_\n__To set:__ ```.welcome your welcome message```",
-            "WELCOME_ALREADY_SETTED": "_Welcome message already set!_\n_Message:_ ```",
-            "NEED_WELCOME_TEXT": "_You must write a message to set up the welcome message._\n_Example:_ ```.welcome WELCOME!```",
-            "WELCOME_DELETED": "_Welcome message has been deleted successfully!_",
-            "WELCOME_SETTED": "_Welcome message has been set successfully!_",
-            "GOODBYE_DESC": "Sets the goodbye message. If you leave blank, it show's the goodbye message.",
-            "NOT_SET_GOODBYE": "_You didn't set a goodbye message!_\n_To set:_ ```.goodbye Your Goodbye Message```",
-            "GOODBYE_ALREADY_SETTED": "_Goodbye message has been set!_\n_Message:_ ```",
-            "NEED_GOODBYE_TEXT": "_You must write a message to set up the goodbye message._\n_Example:_ ```.goodbye Goodbye!```",
-            "GOODBYE_DELETED": "_Goodbye message has been deleted successfully!_",
-            "GOODBYE_SETTED": "_Goodbye message has been setted successfully!_"
+            "WELCOME_DESC": "يضبط رسالة الترحيب. إذا تركتها فارغة، سيعرض رسالة الترحيب.",
+            "NOT_SET_WELCOME": "_لم تقم بتعيين رسالة الترحيب بعد.!_\n_لتعيينها:_ ```.welcome رسالتك الترحيبية```",
+            "WELCOME_ALREADY_SETTED": "_تم تعيين رسالة الترحيب بالفعل!_\n_الرسالة:_ ```",
+            "NEED_WELCOME_TEXT": "_يجب عليك كتابة رسالة لتعيين رسالة الترحيب._\n_مثال:_ ```.welcome أهلاً وسهلاً!```",
+            "WELCOME_DELETED": "_تم حذف رسالة الترحيب بنجاح!_",
+            "WELCOME_SETTED": "_تم تعيين رسالة الترحيب بنجاح!_",
+            "GOODBYE_DESC": "يضبط رسالة الوداع. إذا تركتها فارغة، سيعرض رسالة الوداع.",
+            "NOT_SET_GOODBYE": "_لم تقم بتعيين رسالة الوداع!_\n_لتعيينها:_ ```.goodbye رسالتك الوداعية```",
+            "GOODBYE_ALREADY_SETTED": "_تم تعيين رسالة الوداع!_\n_الرسالة:_ ```",
+            "NEED_GOODBYE_TEXT": "_يجب عليك كتابة رسالة لتعيين رسالة الوداع._\n_مثال:_ ```.goodbye وداعًا!```",
+            "GOODBYE_DELETED": "_تم حذف رسالة الوداع بنجاح!_",
+            "GOODBYE_SETTED": "_تم تعيين رسالة الوداع بنجاح!_"
         },
         "lydia": {
-            "ADDLYDIA_DESC": "Activates Lydia (AI) for the user.",
-            "NEED_REPLY": "```Please respond to a user's message!```",
-            "COFFEEHOUSE": "```You haven't defined the Coffehouse API Key! ```",
-            "ENABLED_LYDIA": "```Lydia has been activated for this user!```",
-            "RMLYDIA_DESC": "Makes Lydia disabled for the user.",
-            "ALREADY_EMPTY": "```Your user list is already empty!```",
-            "NOT_ADDED": "```You haven't added this user already!```",
-            "DISABLED": "```Lydia has been disabled for this user!```"
+            "ADDLYDIA_DESC": "تفعيل Lydia (الذكاء الاصطناعي) للمستخدم.",
+            "NEED_REPLY": "```يرجى الرد على رسالة المستخدم!```",
+            "COFFEEHOUSE": "```لم تقم بتعريف مفتاح API الخاص بـ Coffehouse! ```",
+            "ENABLED_LYDIA": "```تم تفعيل Lydia لهذا المستخدم!```",
+            "RMLYDIA_DESC": "تعطيل Lydia للمستخدم.",
+            "ALREADY_EMPTY": "```قائمة المستخدمين الخاصة بك فارغة بالفعل!```",
+            "NOT_ADDED": "```لم تقم بإضافة هذا المستخدم بعد!```",
+            "DISABLED": "```تم تعطيل Lydia لهذا المستخدم!```"
         },
         "memes": {
-            "MEMES_DESC": "Photo memes you replied to.",
-            "NEED_REPLY": "_Reply to a photo!_",
-            "DOWNLOADING": "```Downloading media & making meme...```"
+            "MEMES_DESC": "يحول الصور المستجيبة إلى ميمات.",
+            "NEED_REPLY": "_رد على صورة!_",
+            "DOWNLOADING": "```جارٍ تنزيل الوسائط وصنع الميم...```"
         },
         "ocr": {
-            "OCR_DESC": "Reads the text on the photo you have replied.",
-            "NEED_REPLY": "_Reply to a photo!_",
-            "DOWNLOADING": "```Media is downloading & reading...```",
-            "ERROR": "```I couldn't read this :/```\n_Error:_```{}```",
-            "RESULT": "_Language:_ ```{}```\n_Here is what I read:_ ```{}```"
+            "OCR_DESC": "يقرأ النص الموجود في الصورة التي قمت بالرد عليها.",
+            "NEED_REPLY": "_رد على صورة!_",
+            "DOWNLOADING": "```جارٍ تنزيل الوسائط وقراءة النص...```",
+            "ERROR": "```لم أتمكن من قراءة هذا :/```\n_خطأ:_```{}```",
+            "RESULT": "_اللغة:_ ```{}```\n_هذا ما قرأته:_ ```{}```"
         },
         "profile": {
-            "KICKME_DESC": "It kicks you from the group you are using it in.",
-            "KICKME": "```Bye bye! I am going 🤠```",
-            "PP_DESC": "Makes the profile photo what photo you reply.",
-            "NEED_PHOTO": "_Give me a photo!_",
-            "PPING": "```Setting profile photo...```",
-            "BLOCK_DESC": "Block user.",
-            "UNBLOCK_DESC": "Unblock user.",
-            "BLOCKED": "blocked",
-            "UNBLOCKED": "unblocked",
-            "BLOCKED_UPPER": "Blocked!",
-            "UNBLOCKED_UPPER": "Unblocked.",
-            "NEED_USER": "Give me a user!",
-            "JID_DESC": "Giving user's JID.",
-            "JID": "```JID address of``` @{} ```: {}```",
-            "JID_CHAT": "```Chat's JID address: {}```"
+            "KICKME_DESC": "يطردك من المجموعة التي تستخدمها فيها.",
+            "KICKME": "```وداعًا! أنا ذاهب 🤠```",
+            "PP_DESC": "يجعل الصورة الشخصية هي الصورة التي ترد عليها.",
+            "NEED_PHOTO": "_أعطني صورة!_",
+            "PPING": "```جارٍ تعيين الصورة الشخصية...```",
+            "BLOCK_DESC": "حظر المستخدم.",
+            "UNBLOCK_DESC": "إلغاء حظر المستخدم.",
+            "BLOCKED": "محظور",
+            "UNBLOCKED": "تم إلغاء الحظر",
+            "BLOCKED_UPPER": "محظور!",
+            "UNBLOCKED_UPPER": "تم إلغاء الحظر.",
+            "NEED_USER": "أعطني مستخدمًا!",
+            "JID_DESC": "إعطاء معرف JID للمستخدم.",
+            "JID": "```عنوان JID لـ``` @{} ```: {}```",
+            "JID_CHAT": "```عنوان JID للدردشة: {}```"
         },
         "removebg": {
-            "REMOVEBG_DESC": "Removes the background of the photos.",
-            "NEED_PHOTO": "_Give me a photo!_",
-            "NO_API_KEY": "_You don't have an API key!_\nYou can get it here: remove.bg.",
-            "RBGING": "```Removing background...```"
+            "REMOVEBG_DESC": "يزيل الخلفية من الصور.",
+            "NEED_PHOTO": "_أعطني صورة!_",
+            "NO_API_KEY": "_ليس لديك مفتاح API!_\nيمكنك الحصول عليه هنا: remove.bg.",
+            "RBGING": "```جارٍ إزالة الخلفية...```"
         },
         "scrapers": {
-            "TRANSLATE_DESC": "It translates with Google Translate. You must reply any message.",
-            "TRANSLATE_USAGE": ".trt tr it (From Turkish to Italian)",
-            "NEED_REPLY": "```Please reply to any message!```",
-            "LANG": "Language",
-            "FROM": "Translated Language",
-            "RESULT": "Translate",
-            "TRANSLATE_ERROR": "\"An error occured while translating!_",
-            "CURRENCY_ERROR": "```Syntax error! Example: .currency 1 TRY USD```",
-            "INVALID_CURRENCY": "```Foreign currency transaction failed. You wrote wrong currency!```",
-            "UNKNOWN_ERROR": "```An error occurred. Foreign currency transaction failed!```",
-            "TTS_DESC": "It converts text to sound.",
-            "TTS_ERROR": "```Error, Speech example of your sentence couldn't be made!```",
-            "SONG_DESC": "Uploads the song you wrote.",
-            "NEED_TEXT_SONG": "_Please write a song!_\n_Example:_ ```.song eminem - rap god```",
-            "NO_RESULT": "_I Couldn't find anything :(_",
-            "DOWNLOADING_SONG": "```Downloading your song...```",
-            "UPLOADING_SONG": "```Uploading your song...```",
-            "VIDEO_DESC": "Downloads video from YouTube.",
-            "NEED_VIDEO": "_Please write a video link!_\n_Example:_ ```.video https://youtu.be/1IplpGR-XX8```",
-            "DOWNLOADING_VIDEO": "```Downloading your video...```",
-            "UPLOADING_VIDEO": "_Uploading your video..._",
-            "YT_DESC": "It searchs on YouTube.",
-            "NEED_WORDS": "```Please write a few words!```",
-            "GETTING_VIDEOS": "```I'm bringing videos...```",
-            "NOT_FOUND": "_I couldn't find anything :(_",
-            "SEARCHING": "_Searching..._",
-            "WIKI_DESC": "Searches query on Wikipedia.",
-            "IMG_DESC": "Searches for related pics on Google.",
-            "IMG": "Uploading photo ```{}``` number ```{} `..."
+            "TRANSLATE_DESC": "يترجم باستخدام Google Translate. يجب الرد على أي رسالة.",
+            "TRANSLATE_USAGE": ".trt tr it (من التركية إلى الإيطالية)",
+            "NEED_REPLY": "```يرجى الرد على أي رسالة!```",
+            "LANG": "اللغة",
+            "FROM": "اللغة المترجمة",
+            "RESULT": "الترجمة",
+            "TRANSLATE_ERROR": "\"حدث خطأ أثناء الترجمة!_",
+            "CURRENCY_ERROR": "```خطأ في الصياغة! مثال: .currency 1 TRY USD```",
+            "INVALID_CURRENCY": "```فشل في تحويل العملات. لقد كتبت عملة خاطئة!```",
+            "UNKNOWN_ERROR": "```حدث خطأ. فشل تحويل العملات!```",
+            "TTS_DESC": "يحول النص إلى صوت.",
+            "TTS_ERROR": "```خطأ، لم يتمكن من إنشاء مثال للنطق من جملتك!```",
+            "SONG_DESC": "يرفع الأغنية التي كتبتها.",
+            "NEED_TEXT_SONG": "_يرجى كتابة أغنية!_\n_مثال:_ ```.song eminem - rap god```",
+            "NO_RESULT": "_لم أتمكن من العثور على شيء :(_",
+            "DOWNLOADING_SONG": "```جارٍ تنزيل أغنيتك...```",
+            "UPLOADING_SONG": "```جارٍ رفع أغنيتك...```",
+            "VIDEO_DESC": "ينزل الفيديو من YouTube.",
+            "NEED_VIDEO": "_يرجى كتابة رابط الفيديو!_\n_مثال:_ ```.video https://youtu.be/1IplpGR-XX8```",
+            "DOWNLOADING_VIDEO": "```جارٍ تنزيل الفيديو...```",
+            "UPLOADING_VIDEO": "_جارٍ رفع الفيديو..._",
+            "YT_DESC": "يبحث على YouTube.",
+            "NEED_WORDS": "```يرجى كتابة بعض الكلمات!```",
+            "GETTING_VIDEOS": "```أحضر الفيديوهات...```",
+            "NOT_FOUND": "_لم أتمكن من العثور على شيء :(_",
+            "SEARCHING": "_جارٍ البحث..._",
+            "WIKI_DESC": "يبحث في ويكيبيديا.",
+            "IMG_DESC": "يبحث عن الصور ذات الصلة على Google.",
+            "IMG": "رفع الصورة ```{}``` الرقم ```{} `..."
         },
         "sticker": {
-            "STICKER_DESC": "It converts your replied photo or video to sticker.",
-            "NEED_REPLY": "_Reply to a photo or video!_",
-            "DOWNLOADING": "```Media downloading & converting to sticker...```"
+            "STICKER_DESC": "يحول الصورة أو الفيديو الذي ترد عليه إلى ملصق.",
+            "NEED_REPLY": "_رد على صورة أو فيديو!_",
+            "DOWNLOADING": "```جارٍ تنزيل الوسائط وتحويلها إلى ملصق...```"
         },
         "system_stats": {
-            "ALIVE_DESC": "Does bot work?",
-            "SYSD_DESC": "Shows the system properties."
+            "ALIVE_DESC": "هل يعمل البوت؟",
+            "SYSD_DESC": "يعرض خصائص النظام."
         },
         "tagall": {
-            "TAGALL_DESC": "Tags everyone in the group."
+            "TAGALL_DESC": "يذكر الجميع في المجموعة."
         },
         "updater": {
-            "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "_Your bot is completely up-to-date!_",
-            "NEW_UPDATE": "_New update available for Bot!_\n\nChanges:\n```",
-            "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "_Build started_",
-            "INVALID_HEROKU": "_Your Heroku information is wrong!_",
-            "UPDATED": "_Successfully Updated!_",
-            "UPDATED_LOCAL": "_Successfully Updated! _\n_Please restart your bot for the changes._"
+            "UPDATER_DESC": "يتحقق من التحديث.",
+            "UPDATE": "_البوت الخاص بك محدث بالكامل!_",
+            "NEW_UPDATE": "_تحديث جديد متاح للبوت!_\n\nالتغييرات:\n```",
+            "UPDATE_NOW_DESC": "يجري التحديثات.",
+            "UPDATING": "_تم بدء البناء_",
+            "INVALID_HEROKU": "_معلومات Heroku الخاصة بك خاطئة!_",
+            "UPDATED": "_تم التحديث بنجاح!_",
+            "UPDATED_LOCAL": "_تم التحديث بنجاح!_\n_يرجى إعادة تشغيل البوت لتطبيق التغييرات._"
         },
         "weather": {
-            "WEATHER_DESC": "Shows the weather.",
-            "NEED_LOCATION": "_ Please write a location!_\n_Example:_ ```.weather Bakü```",
-            "LOCATION": "Location",
-            "TEMP": "Temperature",
-            "DESC": "Description",
-            "HUMI": "Humidity",
-            "WIND": "Wind Speed",
-            "CLOUD": "Cloud",
-            "NOT_FOUND": "```I couldn't find a city with this name. 😖```"
+            "WEATHER_DESC": "يعرض الطقس.",
+            "NEED_LOCATION": "_يرجى كتابة موقع!_\n_مثال:_ ```.weather بكو```",
+            "LOCATION": "الموقع",
+            "TEMP": "درجة الحرارة",
+            "DESC": "الوصف",
+            "HUMI": "الرطوبة",
+            "WIND": "سرعة الرياح",
+            "CLOUD": "الغيوم",
+            "NOT_FOUND": "```لم أتمكن من العثور على مدينة بهذا الاسم. 😖```"
         },
         "web": {
-            "SPEEDTEST_DESC": "Measures Download and Upload speed.",
-            "SPEEDTESTING": "```Running speed test...```",
-            "SPEEDTEST_RESULT": "_Speed ​​test completed!_",
-            "UPLOAD": "Upload",
-            "DOWNLOAD": "Download",
-            "PING_DESC": "Measures your ping."
+            "SPEEDTEST_DESC": "يقيس سرعة التحميل والتنزيل.",
+            "SPEEDTESTING": "```جارٍ إجراء اختبار السرعة...```",
+            "SPEEDTEST_RESULT": "_اكتمل اختبار السرعة!_",
+            "UPLOAD": "الرفع",
+            "DOWNLOAD": "التنزيل",
+            "PING_DESC": "يقيس زمن الوصول (البينج)."
         }
     }
 }
